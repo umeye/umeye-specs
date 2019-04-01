@@ -8,5 +8,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/umeye/umeye-specs.git'
 
 为工程target添加依赖，例：引入UMP2P依赖，
-pod 'UMP2PSDK-iOS'
+pod 'UMP2P'
 ```
