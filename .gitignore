@@ -61,3 +61,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Specs/UMP2P/.DS_Store
+Specs/.DS_Store
+.DS_Store
