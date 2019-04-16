@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   'Security', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'OpenGLES', 
   'QuartzCore', 'AudioToolbox', 'VideoToolbox'
   
-  s.dependency 'FFmpeg' , '2.8.15'
+  # s.dependency 'FFmpeg' , '2.8.15'
   
 end
