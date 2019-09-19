@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMLog'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'UMLog'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,11 @@ TODO: Add long description of the pod here.
   s.author           = { "王伏" => "fred@umeye.com" }
   # s.source           = { :git => 'https://github.com/umeye/UMP2PSDK-iOS.git', :tag => s.version.to_s }
   # s.vendored_frameworks = "UMP2PSDK-iOS/*.framework"
-  s.source           = { :http => 'http://umeye.com/pod/umlog/1.0.0/umlog.zip' }
+  s.source           = { :http => 'http://umeye.com/pod/umlog/1.0.1/umlog.zip' }
   s.vendored_frameworks = "*.framework"
 
   s.ios.deployment_target = '8.0'
+
+  s.dependency 'PocketSocket'
   
 end
