@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.static_framework  =  true
 
   s.ios.deployment_target = '8.0'
-  s.dependency 'UMLog'
+  s.dependency 'UMLog', '1.0.1'
 
   s.libraries   = 'bz2', 'iconv', 'c++'
   s.frameworks  = 'UIKit', 'QuartzCore', 'CFNetwork', 'GLKit', 
