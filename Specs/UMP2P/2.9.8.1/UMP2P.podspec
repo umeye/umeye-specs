@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMP2P'
-  s.version          = '2.9.6.2'
+  s.version          = '2.9.8.1'
   s.summary          = 'UMP2P'
 
 # This description is used to generate tags and improve search results.
