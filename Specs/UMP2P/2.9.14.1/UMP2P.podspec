@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMP2P'
-  s.version          = '2.9.14.0'
+  s.version          = '2.9.14.1'
   s.summary          = 'UMP2P'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.author           = { "王伏" => "fred@umeye.com" }
   # s.source           = { :git => 'https://github.com/umeye/UMP2PSDK-iOS.git', :tag => s.version.to_s }
   # s.vendored_frameworks = "UMP2PSDK-iOS/*.framework"
-  s.source           = { :http => 'http://www.umeye.com/pod/p2p-sdk/2.9.14.0/p2p-sdk.zip' }
+  s.source           = { :http => 'http://www.umeye.com/pod/p2p-sdk/2.9.14.1/p2p-sdk.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
