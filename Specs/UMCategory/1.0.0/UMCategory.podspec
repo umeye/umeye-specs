@@ -40,6 +40,8 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit'
 
   s.dependency 'SVProgressHUD'
+  s.dependency 'MBProgressHUD'
+  
   s.dependency 'ReactiveObjC'
   
 end
