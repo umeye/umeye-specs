@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.dependency 'FFmpeg', '4.2.2'
 
-  s.libraries   = 'bz2', 'iconv', 'c++'
+  s.libraries   = 'bz2', 'iconv', 'c++', "z"
   s.frameworks  = 'AudioToolbox', 'VideoToolbox', 'AVFoundation'
   
 end
