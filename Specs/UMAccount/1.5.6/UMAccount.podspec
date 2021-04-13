@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'Security', 'Foundation'
   s.libraries = 'bz2', 'iconv', 'c++'
 
-  s.dependency 'UMBasis', '1.2.7'
+  s.dependency 'UMBasis', '1.2.8'
   
 end
