@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint UMAccount.podspec' to ensure this is a
+# Be sure to run `pod lib lint UMP2P.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UMAccount'
-  s.version          = '1.5.6'
-  s.summary          = 'UMAccount'
+  s.name             = 'UMP2P'
+  s.version          = '2.10.5.7'
+  s.summary          = 'UMP2P'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,15 +29,22 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://umeye.com/pod/umaccount/1.5.6/umaccount.zip' }
+  # s.source           = { :git => 'https://github.com/umeye/UMP2PSDK-iOS.git', :tag => s.version.to_s }
+  # s.vendored_frameworks = "UMP2PSDK-iOS/*.framework"
+  s.source           = { :http => 'http://www.umeye.com/pod/p2p-sdk/2.10.5.7/p2p-sdk.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
   s.ios.deployment_target = '9.0'
-
-  s.frameworks = 'UIKit', 'Security', 'Foundation'
-  s.libraries = 'bz2', 'iconv', 'c++'
-
+  s.dependency 'UMUDID', '1.1.0'
+  s.dependency 'UMVideo', '1.0.6'
+  s.dependency 'UMOpenGL', '1.0.1'
+  s.dependency 'AFNetworking', '4.0.0'
   s.dependency 'UMBasis', '1.2.8'
+
+  s.libraries   = 'bz2', 'iconv', 'c++'
+  s.frameworks  = 'UIKit', 'QuartzCore', 'CFNetwork', 'GLKit', 
+  'Security', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'OpenGLES', 
+  'QuartzCore', 'AudioToolbox', 'VideoToolbox'
   
 end

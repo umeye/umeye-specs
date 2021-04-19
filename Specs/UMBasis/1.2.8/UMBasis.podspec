@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint UMAccount.podspec' to ensure this is a
+# Be sure to run `pod lib lint UMBasis.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UMAccount'
-  s.version          = '1.5.6'
-  s.summary          = 'UMAccount'
+  s.name             = 'UMBasis'
+  s.version          = '1.2.8'
+  s.summary          = 'UMBasis'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,15 +29,16 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://umeye.com/pod/umaccount/1.5.6/umaccount.zip' }
+  # s.source           = { :git => 'https://github.com/umeye/UMP2PSDK-iOS.git', :tag => s.version.to_s }
+  # s.vendored_frameworks = "UMP2PSDK-iOS/*.framework"
+  s.source           = { :http => 'http://www.umeye.com/pod/umbasis/1.2.8/umbasis.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
   s.ios.deployment_target = '9.0'
+  s.dependency 'UMLog', '1.3.3'
+  s.dependency 'AFNetworking', '4.0.0'
+  s.dependency 'UMUDID', '1.1.0'
 
-  s.frameworks = 'UIKit', 'Security', 'Foundation'
-  s.libraries = 'bz2', 'iconv', 'c++'
-
-  s.dependency 'UMBasis', '1.2.8'
   
 end
