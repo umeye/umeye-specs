@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMAccount'
-  s.version          = '1.5.7'
+  s.version          = '1.5.6'
   s.summary          = 'UMAccount'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://umeye.com/pod/umaccount/1.5.7/umaccount.zip' }
+  s.source           = { :http => 'http://umeye.com/pod/umaccount/1.5.6/umaccount.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'Security', 'Foundation'
   s.libraries = 'bz2', 'iconv', 'c++'
 
-  s.dependency 'UMBasis', '1.2.8'
+  s.dependency 'UMBasis', '1.2.7'
   
 end
