@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { '王伏' => 'fred@umeye.com' }
-  s.source           = { :http => 'http://192.168.10.144:8777/pod/ump2papi/1.0.0/ump2papi.zip' }
+  s.source           = { :http => 'http://192.168.10.15:8777/pod/ump2papi/1.0.0/ump2papi.zip' }
 
   s.ios.deployment_target = '9.0'
 
