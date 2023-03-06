@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://www.umeye.com/pod/p2p-sdk/2.10.7.5/p2p-sdk.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/p2p-sdk/2.10.7.5/p2p-sdk.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 

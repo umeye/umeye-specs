@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://www.umeye.com/pod/ffmpeg/2.8.15/ffmpeg.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/ffmpeg/2.8.15/ffmpeg.zip' }
   s.vendored_frameworks = "*.framework"
 
   s.ios.deployment_target = '8.0'

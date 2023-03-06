@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://www.umeye.com/pod/umvideo/1.0.6/umvideo.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umvideo/1.0.6/umvideo.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
