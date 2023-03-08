@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { '王伏' => 'fred@umeye.com' }
-  s.source           = { :http => 'http://www.umeye.com/pod/umcategory/1.1.1/umcategory.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umcategory/1.1.1/umcategory.zip' }
 
   s.ios.deployment_target = '9.0'
 

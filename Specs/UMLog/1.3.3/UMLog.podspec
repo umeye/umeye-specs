@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   }
   s.static_framework  =  true
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://www.umeye.com/pod/umlog/1.3.3/umlog.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umlog/1.3.3/umlog.zip' }
   s.vendored_frameworks = "*.framework"
 
   s.ios.deployment_target = '9.0'

@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { '王伏' => 'fred@umeye.com' }
-  s.source           = { :http => 'http://www.umeye.com/pod/umlaunchkit/1.0.4/umlaunchkit.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umlaunchkit/1.0.4/umlaunchkit.zip' }
 
   s.ios.deployment_target = '8.0'
 
