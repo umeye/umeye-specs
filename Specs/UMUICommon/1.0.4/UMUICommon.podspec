@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { '王伏' => 'fred@umeye.com' }
-  s.source           = { :http => 'http://192.168.10.15:8777/pod/umuicommon/1.0.4/umuicommon.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umuicommon/1.0.4/umuicommon.zip' }
 
   s.ios.deployment_target = '8.0'
 
