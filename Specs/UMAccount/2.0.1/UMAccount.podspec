@@ -33,11 +33,11 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.frameworks = 'UIKit', 'Security', 'Foundation'
   s.libraries = 'bz2', 'iconv', 'c++'
 
-  s.dependency 'UMBasis', '1.3.8'
+  s.dependency 'UMBasis', '2.0.1'
   
 end
