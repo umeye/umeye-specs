@@ -33,6 +33,8 @@ TODO: Add long description of the pod here.
   s.source           = { :http => 'http://docs.kdzn.top/pod/umlog/1.3.4/umlog.zip' }
   s.vendored_frameworks = "*.framework"
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
+  s.dependency 'SSZipArchive'
+
   
 end
