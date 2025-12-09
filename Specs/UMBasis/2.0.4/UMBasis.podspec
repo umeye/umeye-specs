@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.dependency 'UMLog', '1.3.4'
   s.dependency 'AFNetworking', '4.0.0'
   s.dependency 'UMUDID', '1.1.0'
