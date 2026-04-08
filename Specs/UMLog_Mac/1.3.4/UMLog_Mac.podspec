@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
   s.name             = 'UMLog_Mac'
   s.version          = '1.3.4'
@@ -9,21 +10,19 @@ Pod::Spec.new do |s|
     :type => 'Copyright',
     :text => 'UMEye-Inc copyright'
   }
-  
+
   s.author           = { "王伏" => "fred@umeye.com" }
-  # 你的zip包下载地址
+  
   s.source           = { :http => 'http://docs.kdzn.top/pod/umlog-mac/1.3.4/umlog_mac.zip' }
 
-  # 平台配置（仅macOS，关闭iOS）
-  s.osx.deployment_target = '10.15'
-  s.ios.deployment_target = false 
+  s.vendored_frameworks = "*.framework"
+  s.static_framework  = true
 
-  # 静态库核心配置
-  s.static_framework = true
-  
-  s.vendored_libraries = "libUMLog_Mac.a"
-  s.public_header_files = "Headers/*.h"
+  s.osx.deployment_target = '10.15'   # macOS 最低版本
+  s.ios.deployment_target = false     # 关闭 iOS 支持
+  s.platform = :osx, '10.15'          # 明确仅支持 macOS
 
   # 依赖
   s.dependency 'SSZipArchive'
+  
 end
