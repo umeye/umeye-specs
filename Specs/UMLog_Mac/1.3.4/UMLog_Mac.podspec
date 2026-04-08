@@ -13,14 +13,16 @@ Pod::Spec.new do |s|
   s.author           = { "王伏" => "fred@umeye.com" }
   s.source           = { :http => 'http://docs.kdzn.top/pod/umlog-mac/1.3.4/umlog_mac.zip' }
 
-  s.static_framework  =  true    
-  s.vendored_libraries = "libUMLog_Mac.a"
-  s.public_header_files = "Headers/*.h"
-
-  # 平台配置
   s.osx.deployment_target = '10.15'
-  s.ios.deployment_target = false
+  # s.ios.deployment_target = '9.0' 
 
-  # 依赖
+  s.static_framework = true
+  
+  s.vendored_libraries = "*.a" 
+  s.public_header_files = "*.h"
+  s.source_files = "*.{h}"
+
   s.dependency 'SSZipArchive'
+  
+  #s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end
