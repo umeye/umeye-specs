@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '9.0' 
 
   s.static_framework = true
-  
-  s.vendored_libraries = "*.a" 
-  s.public_header_files = "*.h"
+
+  s.vendored_libraries = "libUMLog_Mac.a"
+  s.public_header_files = "Headers/*.h"
   s.source_files = "*.{h}"
 
   s.dependency 'SSZipArchive'
