@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.author           = { "王伏" => "fred@umeye.com" }
   # s.source           = { :git => 'https://github.com/umeye/UMP2PSDK-iOS.git', :tag => s.version.to_s }
   # s.vendored_frameworks = "UMP2PSDK-iOS/*.framework"
-  s.source           = { :http => 'http://docs.kdzn.top/pod/umbasis_mac/2.0.6/umbasis_mac.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umbasis-mac/2.0.6/umbasis_mac.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
