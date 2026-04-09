@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://wwww.umeye.com'
+  s.homepage         = 'https://www.umeye.com'
   s.license = {
   :type => 'Copyright',
   :text => <<-LICENSE
