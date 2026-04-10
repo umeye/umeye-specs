@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'UMUDID_Mac'
+  s.name             = 'UMUDIDMac'
   s.version          = '1.1.1'
   s.summary          = 'UMUDID macOS 设备唯一标识组件'
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author           = { "王伏" => "fred@umeye.com" }
   
-  s.source           = { :http => 'http://docs.kdzn.top/pod/umudid-mac/1.1.1/umudid_mac.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umudid-mac/1.1.1/umudid-mac.zip' }
 
   s.vendored_frameworks = "*.framework"
   s.static_framework  = true
