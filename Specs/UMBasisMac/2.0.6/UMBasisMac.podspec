@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UMBasis_Mac'
+  s.name             = 'UMBasisMac'
   s.version          = '2.0.6'
   s.summary          = 'UMBasis For Mac'
 
@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   LICENSE
   }
   s.author           = { "王伏" => "fred@umeye.com" }
-  s.source           = { :http => 'http://docs.kdzn.top/pod/umbasis-mac/2.0.6/umbasis_mac.zip' }
+  s.source           = { :http => 'http://docs.kdzn.top/pod/umbasis-mac/2.0.6/umbasis-mac.zip' }
   s.vendored_frameworks = "*.framework"
   s.static_framework  =  true
 
   s.osx.deployment_target = '11.0'
-  s.dependency 'UMLog_Mac', '1.3.4'
+  s.dependency 'UMLogMac', '1.3.4'
   s.dependency 'AFNetworking', '4.0.0'
-  s.dependency 'UMUDID_Mac', '1.1.1'
+  s.dependency 'UMUDIDMac', '1.1.1'
 
   
 end
