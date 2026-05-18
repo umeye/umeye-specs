@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   s.dependency 'UMLog', '1.3.4'
   s.dependency 'AFNetworking', '4.0.0'
   s.dependency 'FFmpeg', '4.2.2'
-  s.dependency 'UMVideo', '1.2.5'
+  s.dependency 'UMVideo', '1.2.6'
   s.dependency 'UMOpenGL', '1.0.1'
 
   s.libraries   = 'bz2', 'iconv', 'c++'
