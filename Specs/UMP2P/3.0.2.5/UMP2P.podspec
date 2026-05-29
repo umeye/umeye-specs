@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   s.dependency 'UMVideo', '1.2.6'
   s.dependency 'UMOpenGL', '1.0.1'
   s.dependency 'AFNetworking', '4.0.0'
-  s.dependency 'UMBasis', '2.0.6'
+  s.dependency 'UMBasis', '2.0.7'
 
   s.libraries   = 'bz2', 'iconv', 'c++'
   s.frameworks  = 'UIKit', 'QuartzCore', 'CFNetwork', 'GLKit', 
